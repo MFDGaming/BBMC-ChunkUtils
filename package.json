@@ -1,0 +1,23 @@
+{
+  "name": "bbmc-chunkutils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/ChunkUtils",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BlueBirdMC/ChunkUtils.git"
+  },
+  "author": "mfdgaming",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BlueBirdMC/ChunkUtils/issues"
+  },
+  "homepage": "https://github.com/BlueBirdMC/ChunkUtils#readme",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^5.1.0"
+  }
+}
