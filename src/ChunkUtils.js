@@ -6,7 +6,7 @@ class ChunkUtils {
      * @param {Array} blocks 
      * @param {Array} palette 
      */
-    writeBlockStorage(blocks, palette) {
+    static writeBlockStorage(blocks, palette) {
         return chunk_utils.writeBlockStorage(blocks, palette);
     }
 }
