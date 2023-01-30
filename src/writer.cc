@@ -22,8 +22,6 @@ void write_zigzag32(uint8_t *data, size_t *offset, int32_t input) {
     write_varint32(data, offset, raw);
 }
 
-#include <stdio.h>
-
 block_storage_buffer_t write_block_storage(uint32_t *blocks, uint16_t blocks_size, uint32_t *palette, uint32_t palette_length) {
     float bits_per_block = ceilf(log2f((float)palette_length));
     bit_array_version_t version;
