@@ -2,6 +2,7 @@
 #define BBMC_CHUNK_UTILS_WRITER_H
 
 #include <stdint.h>
+#include <stddef.h>
 
 typedef struct {
     uint8_t *buffer;
